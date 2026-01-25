@@ -1,0 +1,33 @@
+/* Estilo general para simular el body anterior */
+.main-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  padding: 40px;
+  background-color: #f0f4f8;
+  min-height: 100vh; /* Para que ocupe toda la pantalla */
+}
+
+h1 {
+  color: #2c3e50;
+  text-decoration: underline;
+}
+
+/* Estilos para las palabras resaltadas (span) */
+.resaltado {
+  background-color: yellow;
+  font-weight: bold;
+  color: #d35400;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+/* Contenedor de las listas (div) */
+.contenedor-listas {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  font-style: italic;
+  max-width: 600px; /* Un límite de ancho para que se vea elegante */
+}
